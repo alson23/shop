@@ -1,0 +1,70 @@
+@media only screen and (max-width: 700px) {
+    #ser1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        background: rgb(35, 167, 166);
+        height: 100vh;
+        margin-top: -10px;
+        width: 0px;
+        align-items: center;
+        justify-content: center;
+        gap: 50px 0px;
+        overflow: hidden;
+        
+    }
+    #ser1 a{
+        transform: scale(1.2);
+        text-shadow: 2px 2px 10px white;
+    }
+    #ser2{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+
+    }
+    #ser2 #nav-more{
+        display: block;
+        margin-right: 25px;
+    }
+    #sidebar{
+        width: 35px;
+    }
+    #prodicons .prodsideicon{
+        width: 20px;
+    }
+    #prodicons hr{
+    width:30px;
+
+    }
+    #prodicons .prodsideicon:hover{
+        width: 25px;
+    }
+    #maintop{
+        margin-left:35px;
+    }
+    #mainbtn, #mainbtn2 {
+        
+        margin: 100px 35px;
+        
+    }
+    footer{
+        left: 35px;
+    }
+    #last{
+        margin-left: 35px;
+    }
+    #banner{
+        margin-left: -25px;
+    }
+    #search input{
+        width: 33vw;
+    }
+
+}
+@media only screen and (min-width: 700px) {
+#ser2 #nav-more{
+    display: none;
+}
+}
