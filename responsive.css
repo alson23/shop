@@ -20,7 +20,7 @@
     #ser2{
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: 2px;
         display: flex;
 
     }
@@ -30,6 +30,7 @@
     }
     #sidebar{
         width: 35px;
+        height: 100vh;
     }
     #prodicons .prodsideicon{
         width: 20px;
@@ -56,12 +57,35 @@
         margin-left: 35px;
     }
     #banner{
-        margin-left: -25px;
+        margin-left: -15px;
     }
     #search input{
         width: 33vw;
     }
-
+    #txtban{
+        color: #3eafae;
+        width: 82vw;
+        font-family: verdana;
+        display: flex;
+        justify-content: center;
+        margin-left: 15vw;
+    }
+    #txtban h1{
+        font-size: 25px;
+    }
+    #conclude{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    #conclude div{
+        width: 80vw;
+    }
+    #last h4{
+        font-size: 12px;
+        margin-left: -12px;
+    }
 }
 @media only screen and (min-width: 700px) {
 #ser2 #nav-more{
